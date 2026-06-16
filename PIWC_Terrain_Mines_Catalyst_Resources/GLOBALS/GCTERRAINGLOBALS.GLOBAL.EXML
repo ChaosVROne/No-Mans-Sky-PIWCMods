@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.44.0.3)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcTerrainGlobals">
+  <Property name="MiningSubstanceBiome">
+    <Property name="Lush" value="CATALYST1" /> !# CHANGED
+    <Property name="Toxic" value="CATALYST1" /> !# CHANGED
+    <Property name="Scorched" value="CATALYST1" /> !# CHANGED
+    <Property name="Radioactive" value="CATALYST1" /> !# CHANGED
+    <Property name="Frozen" value="CATALYST1" /> !# CHANGED
+    <Property name="Barren" value="CATALYST1" /> !# CHANGED
+    <Property name="Dead" value="CATALYST1" /> !# CHANGED
+    <Property name="Weird" value="CATALYST1" /> !# CHANGED
+    <Property name="Red" value="CATALYST1" /> !# CHANGED
+    <Property name="Green" value="CATALYST1" /> !# CHANGED
+    <Property name="Blue" value="CATALYST1" /> !# CHANGED
+    <Property name="Test" value="CATALYST1" /> !# CHANGED
+    <Property name="Swamp" value="CATALYST1" /> !# CHANGED
+    <Property name="Lava" value="CATALYST1" /> !# CHANGED
+    <Property name="Waterworld" value="CATALYST1" /> !# CHANGED
+    <Property name="GasGiant" value="CATALYST1" /> !# CHANGED
+    <Property name="All" value="CATALYST1" /> !# CHANGED
+  </Property>
+</Data>

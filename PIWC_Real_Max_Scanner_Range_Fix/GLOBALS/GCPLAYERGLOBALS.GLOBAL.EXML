@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.44.0.3)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="ObjectScanTime" value="0.250000" /> !# CHANGED
+  <Property name="DroneProbeScanTime" value="0.250000" /> !# CHANGED
+  <Property name="ScanLabelTime" value="0.750000" /> !# CHANGED
+  <Property name="ScanFadeInTime" value="0.050000" /> !# CHANGED
+  <Property name="ScanFadeOutTime" value="0.050000" /> !# CHANGED
+  <Property name="ScanBeamWidth" value="3.000000" /> !# CHANGED
+  <Property name="ScanRotateBeamWdith" value="5.000000" /> !# CHANGED
+  <Property name="ScanBeamMainWidth" value="10.000000" /> !# CHANGED
+  <Property name="PlayerViewTargetRange" value="2000.000000" /> !# CHANGED
+  <Property name="InteractionScanRange" value="2000.000000" /> !# CHANGED
+  <Property name="InteractionButtonRange" value="100.000000" /> !# CHANGED
+  <Property name="InteractionButtonRangeVehicle" value="200.000000" /> !# CHANGED
+  <Property name="InteractionFocusIncrease" value="25.000000" /> !# CHANGED
+  <Property name="InteractionFocusIncreaseCreature" value="250.000000" /> !# CHANGED
+  <Property name="InteractionFocusIncreasePet" value="250.000000" /> !# CHANGED
+  <Property name="InteractionFocusTimeShootable" value="0.050000" /> !# CHANGED
+  <Property name="InteractionFocusTime" value="0.050000" /> !# CHANGED
+  <Property name="InteractionFocusTimeCreature" value="0.050000" /> !# CHANGED
+  <Property name="InteractionFocusTimePet" value="0.050000" /> !# CHANGED
+  <Property name="InteractionSubstanceRange" value="250.000000" /> !# CHANGED
+</Data>

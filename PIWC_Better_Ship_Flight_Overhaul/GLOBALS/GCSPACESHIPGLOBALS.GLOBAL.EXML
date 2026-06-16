@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.44.0.3)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcSpaceshipGlobals">
+  <Property name="LandingDirectionalSideOffsetFactor" value="0.500000" /> !# CHANGED
+  <Property name="LandingWaterHoverOffset" value="0.200000" /> !# CHANGED
+  <Property name="LandingWaterHoverHeight" value="0.200000" /> !# CHANGED
+  <Property name="LandingWaterHoverHeightCorvette" value="0.200000" /> !# CHANGED
+  <Property name="LandingMaxSpeed" value="50.000000" /> !# CHANGED
+  <Property name="LandingMaxAngle" value="60.000000" /> !# CHANGED
+  <Property name="LandingMargin" value="0.100000" /> !# CHANGED
+  <Property name="LandingObstacleMinHeight" value="3.000000" /> !# CHANGED
+  <Property name="LandingTooManyLowPointsFraction" value="95.000000" /> !# CHANGED
+  <Property name="PulseDriveBoostDoubleTapTime" value="0.100000" /> !# CHANGED
+  <Property name="WaterEffectScaler" value="3.000000" /> !# CHANGED
+  <Property name="GroundNearEffectWaterLightFactor" value="25.000000" /> !# CHANGED
+  <Property name="GroundWaterSpeedFactor" value="200.000000" /> !# CHANGED
+  <Property name="NearGroundPitchCorrectMinHeight" value="0.000000" /> !# CHANGED
+  <Property name="NearGroundPitchCorrectRange" value="0.000000" /> !# CHANGED
+  <Property name="NearGroundPitchCorrectMinHeightRemote" value="0.000000" /> !# CHANGED
+  <Property name="NearGroundPitchCorrectRangeRemote" value="0.000000" /> !# CHANGED
+  <Property name="WarpInTime" value="0.050000" /> !# CHANGED
+  <Property name="WarpInFlashTime" value="0.050000" /> !# CHANGED
+  <Property name="WarpInRange" value="0.200000" /> !# CHANGED
+  <Property name="WarpScale" value="10000.000000" /> !# CHANGED
+  <Property name="WarpInTimeFreighter" value="0.500000" /> !# CHANGED
+  <Property name="WarpInFlashTimeFreighter" value="2.000000" /> !# CHANGED
+  <Property name="WarpOutRange" value="20000.000000" /> !# CHANGED
+  <Property name="WarpOutTime" value="500.000000" /> !# CHANGED
+  <Property name="WarpInTimeNexus" value="0.400000" /> !# CHANGED
+  <Property name="WarpInFlashTimeNexus" value="2.000000" /> !# CHANGED
+  <Property name="DefaultTrailInitialSpeed" value="500.000000" /> !# CHANGED
+  <Property name="DefaultTrailMinForwardSpeed" value="100.000000" /> !# CHANGED
+  <Property name="ContrailSpeedDamping" value="2.000000" /> !# CHANGED
+  <Property name="MaxOverspeedBrake" value="0.010000" /> !# CHANGED
+  <Property name="PostWarpSlowDownTime" value="0.100000" /> !# CHANGED
+  <Property name="PostFreighterWarpTransitionTime" value="2.000000" /> !# CHANGED
+  <Property name="EngineJetLightIntensityMultiplier" value="10.000000" /> !# CHANGED
+  <Property name="EngineEffectsThrustContribution" value="8000.000000" /> !# CHANGED
+  <Property name="HoverTakeoffHeight" value="0.500000" /> !# CHANGED
+  <Property name="HoverTime" value="0.100000" /> !# CHANGED
+  <Property name="HoverAlignTime" value="0.000000" /> !# CHANGED
+  <Property name="HoverTimeAlt" value="0.100000" /> !# CHANGED
+  <Property name="HoverAlignTimeAlt" value="0.000000" /> !# CHANGED
+  <Property name="HoverSpeedFactor" value="20.000000" /> !# CHANGED
+  <Property name="HoverHeightFactor" value="5.000000" /> !# CHANGED
+  <Property name="HoverMinSpeed" value="0.000000" /> !# CHANGED
+  <Property name="HoverLandReachedMinTime" value="0.050000" /> !# CHANGED
+  <Property name="HoverLandReachedDistance" value="0.250000" /> !# CHANGED
+  <Property name="HoverLandManeuvreBrake" value="1.000000" /> !# CHANGED
+  <Property name="HoverLandManeuvreTimeWaterMultiplier" value="0.100000" /> !# CHANGED
+  <Property name="AutoLevelWaterMargin" value="2.000000" /> !# CHANGED
+  <Property name="AutoLevelWaterTorque" value="5000.000000" /> !# CHANGED
+  <Property name="AutoLevelWaterAngle" value="2.000000" /> !# CHANGED
+  <Property name="LandingButtonMinTime" value="0.050000" /> !# CHANGED
+  <Property name="LandingPushNoseUpFactor" value="0.000000" /> !# CHANGED
+  <Property name="GroundHeightHardOverWater" value="0.000000" /> !# CHANGED
+  <Property name="PitchCorrectDownSpeedMinSpeed" value="99999.000000" /> !# CHANGED
+  <Property name="PitchCorrectDownSpeedRange" value="0.000000" /> !# CHANGED
+  <Property name="PitchCorrectDownSpeedHeightMin" value="0.000000" /> !# CHANGED
+  <Property name="PitchCorrectDownSpeedHeightMax" value="0.000000" /> !# CHANGED
+  <Property name="PitchCorrectMaxDownAngle" value="90.000000" /> !# CHANGED
+  <Property name="PitchCorrectMaxDownAngleWater" value="90.000000" /> !# CHANGED
+  <Property name="Control" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="ShipPlanetBrakeMinSpeed" value="99999.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeMaxSpeed" value="99999.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeMinHeight" value="0.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeMaxHeight" value="0.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeForce" value="0.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeAlignMinTime" value="0.000000" /> !# CHANGED
+    <Property name="ShipPlanetBrakeAlignMaxTime" value="0.000000" /> !# CHANGED
+  </Property>
+  <Property name="ControlLight" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHeavy" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHeavyHover" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlCorvette" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHover" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="100.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="12000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="20000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.100000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.010000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="DirectionBrake" value="5.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="3.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.050000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.010000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.100000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.500000" /> !# CHANGED
+      <Property name="TurnStrength" value="5.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.000000" /> !# CHANGED
+      <Property name="RollForce" value="4.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1200.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2500.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="25000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="6000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="800.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="1200.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="18000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="12000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="1000.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="2000.000000" /> !# CHANGED
+      <Property name="MinSpeed" value="1.000000" /> !# CHANGED
+      <Property name="Falloff" value="0.050000" /> !# CHANGED
+      <Property name="MinSpeedForce" value="500.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="20000.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="5000.000000" /> !# CHANGED
+      <Property name="BoostFalloff" value="0.050000" /> !# CHANGED
+      <Property name="BoostingTurnDamp" value="0.005000" /> !# CHANGED
+      <Property name="DirectionBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="DirectionBrake" value="6.000000" /> !# CHANGED
+      <Property name="ReverseBrake" value="4.000000" /> !# CHANGED
+      <Property name="OverspeedBrake" value="0.010000" /> !# CHANGED
+      <Property name="LowSpeedTurnDamper" value="0.005000" /> !# CHANGED
+      <Property name="TurnBrakeMin" value="0.050000" /> !# CHANGED
+      <Property name="TurnBrakeMax" value="0.250000" /> !# CHANGED
+      <Property name="TurnStrength" value="6.000000" /> !# CHANGED
+      <Property name="RollAmount" value="4.500000" /> !# CHANGED
+      <Property name="RollForce" value="5.000000" /> !# CHANGED
+    </Property>
+  </Property>
+</Data>

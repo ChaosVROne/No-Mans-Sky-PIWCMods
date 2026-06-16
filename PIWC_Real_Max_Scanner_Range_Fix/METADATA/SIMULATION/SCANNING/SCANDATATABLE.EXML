@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.44.0.3)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcScanDataTable">
+  <Property name="ScanData">
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="TOOL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="TOOL_HARD">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="SHIP">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="VEHICLE">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="VEHICLE_LOCAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="WAYPOINT">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="BEACON">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="RADIO_TOWER">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="OBSERVATORY">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="DISTRESS_SIGNAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="PET">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="ROBOT_ATTACK">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="VISUAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="DEBUG_PLANET">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="DEBUG_SPACE">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="R_DISTRESS">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="R_FAKE">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="R_MPREP_AERIAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="R_S2_BEACON">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="R_MP_DIS_SCAN">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="M_ROBO_REVEAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="M_ROBO_BUILDING">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="ScanData" value="GcScanDataTableEntry" _id="M_TORSO_REVEAL">
+      <Property name="ScanData" value="GcScanData">
+        <Property name="PulseRange" value="1000000.000000" /> !# CHANGED
+        <Property name="PulseTime" value="10.000000" /> !# CHANGED
+        <Property name="AddMarkers" value="true" /> !# CHANGED
+        <Property name="PlayAudioOnMarkers" value="true" /> !# CHANGED
+        <Property name="ChargeTime" value="0.100000" /> !# CHANGED
+        <Property name="ScanRevealDelay" value="0.000000" /> !# CHANGED
+      </Property>
+    </Property>
+  </Property>
+</Data>

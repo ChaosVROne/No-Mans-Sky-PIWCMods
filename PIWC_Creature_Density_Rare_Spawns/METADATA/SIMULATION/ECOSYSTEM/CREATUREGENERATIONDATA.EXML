@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.44.0.3)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcCreatureGenerationData">
+  <Property name="BiomeSpecific ">
+    <Property name="Waterworld" value="GcCreatureGenerationOptionalWeightedList">
+      <Property name="Archetypes" value="GcCreatureGenerationWeightedList">
+        <Property name="Water">
+          <Property name="Water" value="GcCreatureGenerationWeightedListDomainEntry" _index="0">
+            <Property name="Weight " value="5.000000" /> !# CHANGED
+          </Property>
+          <Property name="Water" value="GcCreatureGenerationWeightedListDomainEntry" _index="1">
+            <Property name="Weight " value="5.000000" /> !# CHANGED
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+  <Property name="EmptySystemSpecific" value="GcCreatureGenerationOptionalWeightedList">
+    <Property name="Probability" value="0.500000" /> !# CHANGED
+  </Property>
+  <Property name="PurpleSystemSpecific" value="GcCreatureGenerationOptionalWeightedList">
+    <Property name="Archetypes" value="GcCreatureGenerationWeightedList">
+      <Property name="Water">
+        <Property name="Water" value="GcCreatureGenerationWeightedListDomainEntry" _index="0">
+          <Property name="Weight " value="5.000000" /> !# CHANGED
+        </Property>
+        <Property name="Water" value="GcCreatureGenerationWeightedListDomainEntry" _index="1">
+          <Property name="Weight " value="5.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+  <Property name="Generic" value="GcCreatureGenerationWeightedList">
+    <Property name="Ground">
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="2">
+        <Property name="Weight " value="6.000000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="3">
+        <Property name="Weight " value="0.100000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="4">
+        <Property name="Weight " value="6.000000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="6">
+        <Property name="Weight " value="10.000000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="7">
+        <Property name="Weight " value="0.100000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="8">
+        <Property name="Weight " value="8.000000" /> !# CHANGED
+      </Property>
+      <Property name="Ground" value="GcCreatureGenerationWeightedListDomainEntry" _index="10">
+        <Property name="Weight " value="8.000000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="Air">
+      <Property name="Air" value="GcCreatureGenerationWeightedListDomainEntry" _index="0">
+        <Property name="Weight " value="0.100000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="Cave">
+      <Property name="Cave" value="GcCreatureGenerationWeightedListDomainEntry" _index="1">
+        <Property name="Weight " value="0.100000" /> !# CHANGED
+      </Property>
+    </Property>
+    <Property name="Water">
+      <Property name="Water" value="GcCreatureGenerationWeightedListDomainEntry" _index="1">
+        <Property name="Weight " value="3.000000" /> !# CHANGED
+      </Property>
+    </Property>
+  </Property>
+  <Property name="LifeChance">
+    <Property name="Dead" value="0.000000" /> !# CHANGED
+    <Property name="Low" value="0.000000" /> !# CHANGED
+    <Property name="Mid" value="0.000000" /> !# CHANGED
+    <Property name="Full" value="1.000000" /> !# CHANGED
+  </Property>
+  <Property name="RoleFrequencyModifiers">
+    <Property name="Never" value="0.000000" /> !# CHANGED
+    <Property name="Low" value="1.000000" /> !# CHANGED
+    <Property name="Normal" value="3.000000" /> !# CHANGED
+    <Property name="High" value="10.000000" /> !# CHANGED
+  </Property>
+  <Property name="RarityFrequencyModifiers">
+    <Property name="Common" value="10.000000" /> !# CHANGED
+    <Property name="Uncommon" value="10.000000" /> !# CHANGED
+    <Property name="Rare" value="15.000000" /> !# CHANGED
+    <Property name="SuperRare" value="20.000000" /> !# CHANGED
+  </Property>
+  <Property name="GroundGroupsPerKm">
+    <Property name="Sparse" value="100.000000" /> !# CHANGED
+    <Property name="Normal" value="200.000000" /> !# CHANGED
+    <Property name="Dense" value="350.000000" /> !# CHANGED
+    <Property name="VeryDense" value="500.000000" /> !# CHANGED
+  </Property>
+  <Property name="WaterGroupsPerKm">
+    <Property name="Sparse" value="100.000000" /> !# CHANGED
+    <Property name="Normal" value="200.000000" /> !# CHANGED
+    <Property name="Dense" value="350.000000" /> !# CHANGED
+    <Property name="VeryDense" value="500.000000" /> !# CHANGED
+  </Property>
+  <Property name="AirGroupsPerKm">
+    <Property name="Sparse" value="75.000000" /> !# CHANGED
+    <Property name="Normal" value="150.000000" /> !# CHANGED
+    <Property name="Dense" value="250.000000" /> !# CHANGED
+    <Property name="VeryDense" value="350.000000" /> !# CHANGED
+  </Property>
+  <Property name="CaveGroupsPerKm">
+    <Property name="Sparse" value="100.000000" /> !# CHANGED
+    <Property name="Normal" value="200.000000" /> !# CHANGED
+    <Property name="Dense" value="350.000000" /> !# CHANGED
+    <Property name="VeryDense" value="500.000000" /> !# CHANGED
+  </Property>
+  <Property name="DensityModifiers">
+    <Property name="Sparse" value="1.000000" /> !# CHANGED
+    <Property name="Normal" value="2.000000" /> !# CHANGED
+    <Property name="Dense" value="4.000000" /> !# CHANGED
+    <Property name="VeryDense" value="8.000000" /> !# CHANGED
+  </Property>
+  <Property name="LifeLevelDensityModifiers">
+    <Property name="Dead" value="0.250000" /> !# CHANGED
+    <Property name="Low" value="1.000000" /> !# CHANGED
+    <Property name="Mid" value="2.000000" /> !# CHANGED
+    <Property name="Full" value="4.000000" /> !# CHANGED
+  </Property>
+  <Property name="HerdCreaturePenalty" value="0.100000" /> !# CHANGED
+</Data>
