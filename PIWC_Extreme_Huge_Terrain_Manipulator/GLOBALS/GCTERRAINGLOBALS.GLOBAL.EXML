@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.45.0.1)-->
-<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<!--File created by ChaosVrOne-->
+<!--EXML Created by Parallel Infinite Worlds Company-->
 <Data template="cGcTerrainGlobals">
   <Property name="TerrainBeamUndoRangeFromLastAdd" value="9999.000000" /> !# CHANGED
   <Property name="SubtractEditLength" value="9999.000000" /> !# CHANGED
