@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.45.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcTerrainGlobals">
+  <Property name="TerrainBeamUndoRangeFromLastAdd" value="9999.000000" /> !# CHANGED
+  <Property name="SubtractEditLength" value="9999.000000" /> !# CHANGED
+  <Property name="SubtractEditFrequency" value="0.020000" /> !# CHANGED
+  <Property name="TerrainBeamDefaultRadius" value="25.000000" /> !# CHANGED
+  <Property name="TerrainEditing" value="GcTerrainEditing">
+    <Property name="TerrainEditBeamMaxRange" value="9999.000000" /> !# CHANGED
+    <Property name="TerrainEditBeamSpherecastRadius" value="1.000000" /> !# CHANGED
+    <Property name="TerrainEditBeamAddInterpolationStepFactor" value="5.000000" /> !# CHANGED
+    <Property name="TerrainEditBeamSubtractInterpolationStepFactor" value="5.000000" /> !# CHANGED
+    <Property name="TerrainBlocksSearchRadiusMultiplier" value="10.000000" /> !# CHANGED
+    <Property name="RegionMapSearchRadiusMultiplier" value="10.000000" /> !# CHANGED
+    <Property name="RegionEditAreaMultiplier" value="20.000000" /> !# CHANGED
+    <Property name="DensityBlendDistanceMultiplier" value="5.000000" /> !# CHANGED
+    <Property name="TerrainEditBaseDistanceTolerance" value="5.000000" /> !# CHANGED
+    <Property name="UndoEditToleranceFactor" value="10.000000" /> !# CHANGED
+    <Property name="UndoBaseEditEffectiveScale" value="5.000000" /> !# CHANGED
+    <Property name="EditSizes">
+      <Property name="EditSizes" value="35.000000" _index="0" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="1" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="2" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="3" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="4" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="5" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="6" /> !# CHANGED
+      <Property name="EditSizes" value="35.000000" _index="7" /> !# CHANGED
+    </Property>
+    <Property name="SubtractSizes">
+      <Property name="SubtractSizes" value="45.000000" _index="0" /> !# CHANGED
+      <Property name="SubtractSizes" value="45.000000" _index="1" /> !# CHANGED
+      <Property name="SubtractSizes" value="45.000000" _index="2" /> !# CHANGED
+    </Property>
+    <Property name="BaseEditSizes">
+      <Property name="BaseEditSizes" value="60.000000" _index="0" /> !# CHANGED
+      <Property name="BaseEditSizes" value="60.000000" _index="1" /> !# CHANGED
+    </Property>
+    <Property name="UndoEditSizes">
+      <Property name="UndoEditSizes" value="60.000000" _index="0" /> !# CHANGED
+      <Property name="UndoEditSizes" value="60.000000" _index="1" /> !# CHANGED
+    </Property>
+    <Property name="FlatteningSizes">
+      <Property name="FlatteningSizes" value="50.000000" _index="0" /> !# CHANGED
+    </Property>
+    <Property name="EditEffectScale" value="20.000000" /> !# CHANGED
+  </Property>
+  <Property name="TerrainUndoCubesRange" value="9999.000000" /> !# CHANGED
+</Data>
