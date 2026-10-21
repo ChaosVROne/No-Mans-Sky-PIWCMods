@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (6.11.0.1)-->
+<!--EXML Created by ChaosVrOne-->
+<Data template="cGcTerrainGlobals">
+  <Property name="ForcePurpleSystemHighWater" value="False" /> !# CHANGED
+  <Property name="PurpleSystemMaxHighWaterChance" value="0.000000" /> !# CHANGED
+  <Property name="SeaLevelGasGiant" value="0.000000" /> !# CHANGED
+  <Property name="SeaLevelMoon" value="0.000000" /> !# CHANGED
+  <Property name="SeaLevelStandard" value="0.000000" /> !# CHANGED
+  <Property name="SeaLevelHigh" value="0.000000" /> !# CHANGED
+  <Property name="SeaLevelWaterWorld" value="0.000000" /> !# CHANGED
+  <Property name="MinHighWaterLevel" value="0.000000" /> !# CHANGED
+  <Property name="MaxHighWaterLevel" value="0.000000" /> !# CHANGED
+  <Property name="MinHighWaterRegionRatio" value="0.000000" /> !# CHANGED
+  <Property name="MinHighWaterRatio" value="0.000000" /> !# CHANGED
+  <Property name="MaxHighWaterRatio" value="0.000000" /> !# CHANGED
+  <Property name="MinWaterRatio" value="0.000000" /> !# CHANGED
+  <Property name="MaxWaterRatio" value="0.000000" /> !# CHANGED
+</Data>
